@@ -9,6 +9,7 @@ $container-max-widths: (
   xl: 1540px
 ) !default;
 
+@import "fonts";
 @import "node_modules/bootstrap/scss/bootstrap";
 
 body {
