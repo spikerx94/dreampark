@@ -1,6 +1,5 @@
 $primary-color: #4e4d4d;
 $secondary-color: #cbbb9f;
-$body-font-size: 18px;
 
 $container-max-widths: (
   sm: 540px,
@@ -9,30 +8,26 @@ $container-max-widths: (
   xl: 1540px
 ) !default;
 
+$h1-font-size:                3.33rem !default;
+$h2-font-size:                1.66rem !default;
+$h3-font-size:                1.66rem !default;
+$h4-font-size:                1rem !default;
+
+
+$link-color:                              $primary-color !default;
+$link-hover-color:                        $primary-color !default;
+
 @import "fonts";
 @import "node_modules/bootstrap/scss/bootstrap";
 
-body {
-    font-size: $body-font-size;
-}
-a {
-    color: $primary-color;
-}
-a:hover {
-    color: $primary-color;
-    text-decoration: none;
+h1, h2, h3 {
+    font-weight: bold;
 }
 h1,h2,h3,h4,p {
     color: $primary-color;
 }
-h1 {
-    font-size: 3.33rem;
-}
-h2, h3, .more-us-box p {
+.more-us-box p {
     font-size: 1.66rem;
-}
-h4 {
-    font-size: 1rem;
 }
 h3 {
     margin: 46px 0px 40px 0px;
@@ -70,7 +65,11 @@ header.next-slide {
     margin-top: 24px;
     color: white;
     font-size: 1.77rem;
+    font-weight: bold;
     text-transform: uppercase;
+}
+.header-box-logo {
+    width: 100%;
 }
 .about-box  {
     margin: 33px 0px 30px 0px;

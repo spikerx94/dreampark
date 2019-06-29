@@ -272,12 +272,12 @@ sup {
 }
 
 a {
-  color: #007bff;
+  color: #4e4d4d;
   text-decoration: none;
   background-color: transparent;
 }
 a:hover {
-  color: #0056b3;
+  color: #4e4d4d;
   text-decoration: underline;
 }
 
@@ -483,19 +483,19 @@ h1, h2, h3, h4, h5, h6,
 }
 
 h1, .h1 {
-  font-size: 2.8125rem;
+  font-size: 3.33rem;
 }
 
 h2, .h2 {
-  font-size: 2.25rem;
+  font-size: 1.66rem;
 }
 
 h3, .h3 {
-  font-size: 1.96875rem;
+  font-size: 1.66rem;
 }
 
 h4, .h4 {
-  font-size: 1.6875rem;
+  font-size: 1rem;
 }
 
 h5, .h5 {
@@ -2832,11 +2832,11 @@ fieldset:disabled a.btn {
 
 .btn-link {
   font-weight: 400;
-  color: #007bff;
+  color: #4e4d4d;
   text-decoration: none;
 }
 .btn-link:hover {
-  color: #0056b3;
+  color: #4e4d4d;
   text-decoration: underline;
 }
 .btn-link:focus, .btn-link.focus {
@@ -4459,13 +4459,13 @@ input[type=button].btn-block {
   padding: 0.5rem 0.75rem;
   margin-left: -1px;
   line-height: 1.25;
-  color: #007bff;
+  color: #4e4d4d;
   background-color: #fff;
   border: 1px solid #dee2e6;
 }
 .page-link:hover {
   z-index: 2;
-  color: #0056b3;
+  color: #4e4d4d;
   text-decoration: none;
   background-color: #e9ecef;
   border-color: #dee2e6;
@@ -9775,33 +9775,16 @@ h3 {
     border-color: #dee2e6;
   }
 }
-body {
-  font-size: 18px;
-}
-
-a {
-  color: #4e4d4d;
-}
-
-a:hover {
-  color: #4e4d4d;
-  text-decoration: none;
+h1, h2, h3 {
+  font-weight: bold;
 }
 
 h1, h2, h3, h4, p {
   color: #4e4d4d;
 }
 
-h1 {
-  font-size: 3.33rem;
-}
-
-h2, h3, .more-us-box p {
+.more-us-box p {
   font-size: 1.66rem;
-}
-
-h4 {
-  font-size: 1rem;
 }
 
 h3 {
@@ -9846,7 +9829,12 @@ header.next-slide {
   margin-top: 24px;
   color: white;
   font-size: 1.77rem;
+  font-weight: bold;
   text-transform: uppercase;
+}
+
+.header-box-logo {
+  width: 100%;
 }
 
 .about-box {
