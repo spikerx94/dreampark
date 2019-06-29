@@ -2,6 +2,8 @@ $primary-color: #4e4d4d;
 $secondary-color: #cbbb9f;
 $body-font-size: 18px;
 
+@import "node_modules/bootstrap/scss/bootstrap";
+
 body {
     font-size: $body-font-size;
 }
