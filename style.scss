@@ -2,6 +2,13 @@ $primary-color: #4e4d4d;
 $secondary-color: #cbbb9f;
 $body-font-size: 18px;
 
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1540px
+) !default;
+
 @import "node_modules/bootstrap/scss/bootstrap";
 
 body {
@@ -32,10 +39,6 @@ h3 {
 ::placeholder {
     color: black;
     font-size: 0.77rem;
-}
-.wrapper {
-    max-width: 1540px;
-    margin: 0 auto;
 }
 header {
     background: url(img/banner-dreampark-b.jpg);

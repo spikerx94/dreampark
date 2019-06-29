@@ -560,7 +560,7 @@ pre code {
 }
 @media (min-width: 1200px) {
   .container {
-    max-width: 1140px;
+    max-width: 1540px;
   }
 }
 
@@ -9691,11 +9691,6 @@ h3 {
 ::placeholder {
   color: black;
   font-size: 0.77rem;
-}
-
-.wrapper {
-  max-width: 1540px;
-  margin: 0 auto;
 }
 
 header {
