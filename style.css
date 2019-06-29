@@ -9775,6 +9775,11 @@ h3 {
     border-color: #dee2e6;
   }
 }
+@media (max-width: 767.98px) {
+  .text-nowrap {
+    white-space: normal !important;
+  }
+}
 h1, h2, h3 {
   font-weight: bold;
 }
@@ -9853,10 +9858,10 @@ header.next-slide {
 .more-us-box a {
   color: #cbbb9f;
   font-size: 2.72rem;
+  font-weight: 500;
 }
 
 .more-us-box a:hover {
-  text-decoration: none;
   color: #cbbb9f;
 }
 
