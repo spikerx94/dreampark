@@ -21,8 +21,6 @@ $link-hover-color:                        $primary-color !default;
 
 @import "fonts";
 @import "node_modules/bootstrap/scss/bootstrap";
-@import "node_modules/bootstrap/scss/_mixins";
-
 
 
 h1, h2, h3 {
@@ -227,4 +225,5 @@ margin: 101px 0px 0px;
         .text-sm-center {
             text-align: center;
         }
+        
 }
