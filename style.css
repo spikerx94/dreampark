@@ -9775,11 +9775,6 @@ h3 {
     border-color: #dee2e6;
   }
 }
-@media (max-width: 767.98px) {
-  .text-nowrap {
-    white-space: normal !important;
-  }
-}
 h1, h2, h3 {
   font-weight: bold;
 }
@@ -10004,10 +9999,22 @@ footer {
 }
 
 @media (max-width: 767.98px) {
+  .text-nowrap {
+    white-space: normal !important;
+  }
+
+  .more-us-box a {
+    font-size: 2rem;
+  }
+
   .row.header-row {
     height: 100vh;
     min-height: auto;
     margin: 0 auto;
+  }
+
+  .text-sm-center {
+    text-align: center;
   }
 }
 
